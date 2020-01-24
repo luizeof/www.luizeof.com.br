@@ -1,2 +1,1 @@
-# www.luizeof.com.br
-website
+# luizeof.com.br
