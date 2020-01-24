@@ -9,6 +9,9 @@ disqus: "luizeof"
 include: ["_pages"]
 permalink: /:title/
 
+sass:
+  style: compressed
+
 # Authors
 authors:
   luizeof:
