@@ -15,7 +15,3 @@ jekyll clean
 jekyll build
 
 rm _site/assets/css/main.css.map
-
-uglifycss _site/assets/css/screen.css >_site/assets/css/main.css
-
-uglifycss _site/assets/css/screen.css >_site/assets/css/screen.css
