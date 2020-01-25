@@ -1,0 +1,10 @@
+#!/bin/bash
+
+npm install uglifycss -g
+
+brew install webp
+
+brew install optipng
+
+brew install jpegoptim
+
