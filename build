@@ -4,8 +4,6 @@ clear
 
 find assets/images/ -name "*.jpg" -exec jpegoptim -m80 -o -p --strip-all {} \;
 
-#find assets/images/ -name "*.png" -exec optipng -o7 {} \;
-
 find assets/images/ -type f -name '*.png' -exec sh -c 'cwebp -q 75 $1 -o "${1%.png}.webp"' _ {} \;
 
 find assets/images/ -type f -name '*.jpg' -exec sh -c 'cwebp -q 75 $1 -o "${1%.jpg}.webp"' _ {} \;

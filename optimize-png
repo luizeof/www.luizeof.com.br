@@ -1,0 +1,3 @@
+#!/bin/bash
+
+find assets/images/ -name "*.png" -exec optipng -o7 {} \;
