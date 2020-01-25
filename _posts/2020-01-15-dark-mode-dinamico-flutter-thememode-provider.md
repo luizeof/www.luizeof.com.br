@@ -186,11 +186,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
 [Execute o projeto no dispositivo e teste o aplicativo com o código que está no Github](https://github.com/luizeof/flutter-darkmode-provider-example). Você pode personalizar o tema conforme sua exigência.
 
-![Como fazer Dark Mode no Flutter com ThemeMode e Provider](/assets/images/flutter-light-mode.png.webp)
+![Como fazer Dark Mode no Flutter com ThemeMode e Provider](/assets/images/flutter-light-mode.webp)
 
 App Light Mode
 
-![Como fazer Dark Mode no Flutter com ThemeMode e Provider](/assets/images/flutter-dark-mode.png.webp)
+![Como fazer Dark Mode no Flutter com ThemeMode e Provider](/assets/images/flutter-dark-mode.webp)
 
 App Dark Mode
 
