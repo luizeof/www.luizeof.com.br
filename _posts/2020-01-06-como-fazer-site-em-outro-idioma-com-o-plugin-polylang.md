@@ -3,6 +3,7 @@ title: "Como fazer site em outro idioma com o Plugin Polylang"
 date: "2020-01-06"
 categories: [ wordpress ]
 tags: [plugins]
+lang: "pt-BR"
 ---
 
 O Polylang permite criar um site [WordPress](https://www.luizeof.com.br/br/wordpress/) bilíngue ou multilíngue. Você escreve postagens, páginas e cria categorias e tags de postagem como de costume e depois define o idioma para cada uma delas.
