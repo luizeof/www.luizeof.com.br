@@ -139,7 +139,6 @@ post_class: post-template
 <!-- End Article
 ================================================== -->
 
-{% if page.rating %}
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -167,7 +166,10 @@ post_class: post-template
             }
         },
         "description": "{{ page.description }}"
-    } {
+    }
+</script>
+<script type="application/ld+json">
+    {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [{
@@ -181,7 +183,10 @@ post_class: post-template
             "name": "{{page.categories}}",
             "item": "https://www.luizeof.com.br/{{page.categories}}"
         }]
-    } {
+    }
+</script>
+<script type="application/ld+json">
+    {
         "@context": "http://schema.org/",
         "@type": "Review",
         "itemReviewed": {
@@ -200,4 +205,3 @@ post_class: post-template
         }
     }
 </script>
-{% endif %}
