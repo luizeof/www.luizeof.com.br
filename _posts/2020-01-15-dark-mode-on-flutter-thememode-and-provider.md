@@ -3,6 +3,7 @@ title: "Dark Mode on Flutter with ThemeMode and Provider"
 date: "2020-01-15"
 layout: "post"
 categories: [ flutter ]
+lang: "en"
 ---
 
 In this article I will present a method of implementing dynamic Dark Mode on Flutter using `ThemeMode` and the plugin `provider`.

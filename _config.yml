@@ -30,7 +30,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-default-layout
   - jekyll-minifier
 
 # Archives
@@ -51,9 +50,15 @@ markdown: kramdown
 defaults:
   - scope:
       path: ""
+      type: "pages"
+    values:
+      lang: "pt-BR"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
+      lang: "pt-BR"
 
 kramdown:
   input: GFM

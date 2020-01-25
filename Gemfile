@@ -9,14 +9,15 @@ source "https://rubygems.org"
 
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem "jekyll", "~> 4.0"
 group :jekyll_plugins do
     gem 'jekyll-feed'
-    gem 'jekyll-sitemap'
+    gem 'jekyll-sitemap', ">1.2.0"
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
     gem 'kramdown'
     gem 'rouge'
-    gem 'jekyll-default-layout'
+#    gem 'jekyll-default-layout', ">1.0.0"
     gem 'jekyll-minifier'
 end
