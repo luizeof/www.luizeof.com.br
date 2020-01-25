@@ -139,12 +139,49 @@ post_class: post-template
 <!-- End Article
 ================================================== -->
 
-<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
-https://search.google.com/structured-data/testing-tool/u/0/
-================================================== -->
 {% if page.rating %}
 <script type="application/ld+json">
     {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://google.com/article"
+        },
+        "headline": "{{ page.title }}",
+        "image": [
+            "https://www.luizeof.com.br/assets/images/category/flutter-full.png"
+        ],
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ page.date | date_to_xmlschema }}",
+        "author": {
+            "@type": "Person",
+            "name": "Luiz Eduardo"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "luizeof",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.luizeof.com.br/assets/images/logo.png"
+            }
+        },
+        "description": "{{ page.description }}"
+    } {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "{{page.lang}}",
+            "item": "https://www.luizeof.com.br/{{page.lang}}"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{page.categories}}",
+            "item": "https://www.luizeof.com.br/{{page.categories}}"
+        }]
+    } {
         "@context": "http://schema.org/",
         "@type": "Review",
         "itemReviewed": {
@@ -155,7 +192,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
             "@type": "Person",
             "name": "{{ author.display_name }}"
         },
-        "datePublished": "{{ page.date | date:" % Y - % m - % d " }}",
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
         "reviewRating": {
             "@type": "Rating",
             "ratingValue": "{{ page.rating }}",
