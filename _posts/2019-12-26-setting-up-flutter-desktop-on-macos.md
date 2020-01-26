@@ -1,6 +1,9 @@
 ---
 title: "Setting Up Flutter Desktop on MacOS"
 date: "2019-12-26"
+categories: [ flutter ]
+lang: "en"
+image: "assets/images/category/flutter-full.png"
 ---
 
 Work is underway to extend [Flutter](https://www.luizeof.com.br/en/flutter/) to support the desktop, allowing developers to build macOS, Windows, and Linux applications with Flutter Desktop.

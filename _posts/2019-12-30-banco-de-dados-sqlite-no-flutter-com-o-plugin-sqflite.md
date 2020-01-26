@@ -1,6 +1,9 @@
 ---
 title: "Banco de Dados SQLite no Flutter com o plugin sqflite"
 date: "2019-12-30"
+categories: [ flutter ]
+lang: "pt-BR"
+image: "assets/images/category/flutter-full.png"
 ---
 
 O SQLite é [uma biblioteca em linguagem C](https://www.sqlite.org/) que implementa um mecanismo de banco de dados SQL pequeno, rápido, independente, de alta confiabilidade e completo que pode ser usado com o Flutter através da biblioteca **_sqflite_**.

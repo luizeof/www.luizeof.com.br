@@ -1,6 +1,9 @@
 ---
 title: "Controle os itens do menu do Wordpress com o IF Menu"
 date: "2019-10-23"
+categories: [ wordpress ]
+lang: "pt-BR"
+image: "assets/images/category/wordpress-full.png"
 ---
 
 Controle quais itens de menu os visitantes do seu site veem, com base nas regras de visibilidade com o plugin IF Menu. Aqui estão alguns exemplos das possibilidades do plugin **IF Menu**:

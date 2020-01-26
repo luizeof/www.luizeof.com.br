@@ -1,6 +1,9 @@
 ---
 title: "Yoast SEO é mais do que essencial no WordPress"
 date: "2019-05-19"
+categories: [ wordpress ]
+lang: "pt-BR"
+image: "assets/images/category/wordpress-full.png"
 ---
 
 O Yoast SEO oferece uma série de benefícios que auxiliam o posicionamento do seu Website no Google. Nesse episódio conheça os recursos do Yoast SEO e veja como ele pode te ajudar.

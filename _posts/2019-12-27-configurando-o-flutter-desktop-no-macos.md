@@ -1,6 +1,9 @@
 ---
 title: "Configurando o Flutter Desktop no MacOS"
 date: "2019-12-27"
+categories: [ flutter ]
+lang: "pt-BR"
+image: "assets/images/category/flutter-full.png"
 ---
 
 Estão em andamento trabalhos para estender o Flutter para oferecer suporte à área de trabalho, permitindo que os desenvolvedores criem aplicativos macOS, Windows e Linux com o Flutter Desktop.

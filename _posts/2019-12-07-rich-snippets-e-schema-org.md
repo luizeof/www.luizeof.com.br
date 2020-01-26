@@ -1,6 +1,9 @@
 ---
 title: "Como melhorar a pesquisa com o Rich Snippets e o Schema.org"
 date: "2019-12-07"
+categories: [ wordpress ]
+lang: "pt-BR"
+image: "assets/images/category/wordpress-full.png"
 ---
 
 Os dados estruturados com **Rich Snippets** e **schema.org** permitem apresentar os resultados da pesquisa de uma maneira mais visual e atraente.

@@ -1,6 +1,9 @@
 ---
 title: "Conheça os Tipos de Dados do Dart e Flutter"
 date: "2019-12-08"
+categories: [ flutter ]
+lang: "pt-BR"
+image: "assets/images/category/flutter-full.png"
 ---
 
 Uma das características mais fundamentais de uma linguagem de programação é o conjunto de tipos de dados [que ela suporta](https://dart.dev/guides/language/language-tour#built-in-types). Estes são os tipos de dados que podem ser representados e manipulados em uma linguagem de programação como o Dart que é a base do [Flutter](https://www.luizeof.com.br/br/flutter/).

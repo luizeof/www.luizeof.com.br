@@ -1,6 +1,9 @@
 ---
 title: "Twenty Twenty: Veja o novo tema padrão do Wordpress 5.3"
 date: "2019-09-05"
+categories: [ wordpress ]
+lang: "pt-BR"
+image: "assets/images/category/wordpress-full.png"
 ---
 
 O Designer Anders Norén apresentou os mockups do novo tema padrão do WordPress chamado Twenty Twenty com foco total no Gutenberg.

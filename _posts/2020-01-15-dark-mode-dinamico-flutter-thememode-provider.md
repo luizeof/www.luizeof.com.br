@@ -7,6 +7,7 @@ categories: [ flutter ]
 tags: [flutter, ui]
 rating: 5
 lang: "pt-BR"
+image: "assets/images/category/flutter-full.png"
 ---
 
 Neste artigo vou apresentar um método de implementar o Dark Mode dinâmico no Flutter usando o `ThemeMode` e o plugin `provider`.

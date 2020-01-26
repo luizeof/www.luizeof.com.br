@@ -1,6 +1,9 @@
 ---
 title: "Como capturar Erro e Exceção no PHP 7 com Throwable"
 date: "2019-12-19"
+categories: [ php ]
+lang: "pt-BR"
+image: "assets/images/category/php-full.png"
 ---
 
 Capturar e tratar com erros fatais no PHP 5.6 era quase impossível. Um erro fatal não chamaria o manipulador de exceção definido por `set_error_handler()` em um bloco `try` .. `catch` e simplesmente interromperia a execução do script.

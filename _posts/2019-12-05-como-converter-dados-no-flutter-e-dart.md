@@ -1,6 +1,9 @@
 ---
 title: "Como converter dados no Flutter e Dart"
 date: "2019-12-05"
+categories: [ flutter ]
+lang: "pt-BR"
+image: "assets/images/category/flutter-full.png"
 ---
 
 Durante o desenvolvimento é comum converter dados de um tipo para outro para efetuar as mais diversas operações e o **Dart** oferece uma série de métodos para realizar as conversões.

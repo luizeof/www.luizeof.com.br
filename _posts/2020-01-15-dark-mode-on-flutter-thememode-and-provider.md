@@ -4,6 +4,7 @@ date: "2020-01-15"
 layout: "post"
 categories: [ flutter ]
 lang: "en"
+image: "assets/images/category/flutter-full.png"
 ---
 
 In this article I will present a method of implementing dynamic Dark Mode on Flutter using `ThemeMode` and the plugin `provider`.
