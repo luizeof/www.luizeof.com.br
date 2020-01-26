@@ -12,6 +12,19 @@ permalink: /:title/
 sass:
   style: compressed
 
+twitter:
+  username: luizeof
+  card: summary
+
+facebook:
+  app_id: 203262620105524
+
+social:
+  name: Luiz Eduardo
+  links:
+    - https://twitter.com/luizeof
+    - https://www.facebook.com/luizeof
+
 # Authors
 authors:
   luizeof:
@@ -21,7 +34,7 @@ authors:
     email: luizeof@gmail.com
     web: https://www.luizeof.com.br
     twitter: https://twitter.com/luizeof
-    description: "Desenvolvedor Web desde 2005, Entusiasta do Flutter, Mantnedor do Docker Mautic e Devops na Powertic"
+    description: "Desenvolvedor Web desde 2005, Entusiasta do Flutter, Mantenedor do Docker Mautic e Devops na Powertic"
 
 # Plugins
 plugins:
@@ -43,6 +56,7 @@ jekyll-archives:
 # Pagination
 paginate: 12
 paginate_path: /page:num/
+seo_paginator_message: "%<current>s / %<total>s | "
 
 # Other
 markdown: kramdown
@@ -53,12 +67,14 @@ defaults:
       type: "pages"
     values:
       lang: "pt-BR"
+      author: "luizeof"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       lang: "pt-BR"
+      author: "luizeof"
 
 kramdown:
   input: GFM

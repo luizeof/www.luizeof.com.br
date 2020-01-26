@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
-    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel='dns-prefetch' href='//s.w.org' />
-    <link rel='dns-prefetch' href='//www.luizeof.com.br' />
-    <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
-    <title>{{ page.title }} | {{site.name}}</title>
-    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
-    <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154888688-1"></script>
-    <script async defer src="https://kit.fontawesome.com/74938d49e0.js" crossorigin="anonymous"></script>
+    <head>
+        <meta charset="UTF-8">
+        {% seo %}
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+        <link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+        <link href="//s.w.org" rel="dns-prefetch"/>
+        <link href="//www.luizeof.com.br" rel="dns-prefetch"/>
+        <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch"/>
+        <link href="//bootswatch.com" rel="dns-prefetch"/>
+        <link href="https://bootswatch.com/4/flatly/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154888688-1"></script>
+        <script async crossorigin="anonymous" defer defer src="https://kit.fontawesome.com/74938d49e0.js"></script>
 
-    <script>
+        <script>
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
@@ -28,135 +29,135 @@
         gtag('config', 'UA-154888688-1');
     </script>
 
-</head>
+    </head>
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+    {% capture layout %}
+        {% if page.layout %}layout-{{ page.layout }}
+        {% endif %}
+    {% endcapture %}
 
-<body class="{{layout}}">
+    <body class="{{layout}}">
 
-    <!-- Begin Menu Navigation
+        <!-- Begin Menu Navigation
 ================================================== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white mediumnavigation nav-down">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white mediumnavigation nav-down">
 
-        <div class="container pr-0">
+            <div class="container pr-0">
 
-            <!-- Begin Logo -->
-            <a class="navbar-brand" href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-            </a>
-            <!-- End Logo -->
+                <!-- Begin Logo -->
+                <a class="navbar-brand" href="{{ site.baseurl }}/">
+                    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+                </a>
+                <!-- End Logo -->
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarMediumish" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarMediumish">
+                <div class="collapse navbar-collapse" id="navbarMediumish">
 
-                <!-- Begin Menu -->
+                    <!-- Begin Menu -->
 
-                <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto">
 
-                    {% if page.url == "/" %}
-                    <li class="nav-item active">
-                        {% else %}
-                    <li class="nav-item">
-                        {% endif %}
-                        <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
-                    </li>
+                        {% if page.url == "/" %}
+                            <li class="nav-item active">
+                            {% else %}
+                                <li class="nav-item">
+                                {% endif %}
+                                <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
+                            </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                    </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                            </li>
 
-                    <li class="nav-item">
-                        <a target="_blank" class="nav-link" href="https://github.com/luizeof/www.luizeof.com.br"><i
-                                class="fab fa-github"></i>
-                            Fork on Github</a>
-                    </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/luizeof/www.luizeof.com.br" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Fork on Github</a>
+                            </li>
 
-                </ul>
+                        </ul>
 
-                <!-- End Menu -->
+                        <!-- End Menu -->
 
-            </div>
-
-        </div>
-    </nav>
-    <!-- End Navigation
-================================================== -->
-
-    <div class="site-content">
-
-        <div class="container">
-
-
-
-            <!-- Content
-================================================== -->
-
-            <div class="main-content">
-                {{ content }}
-            </div>
-
-            <!-- Categories Jumbotron
-================================================== -->
-            <div class="jumbotron fortags">
-                <div class="d-md-flex h-100">
-                    <div class="col-md-4 transpdark align-self-center text-center h-100">
-                        <div class="d-md-flex align-items-center justify-content-center h-100">
-                            <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span
-                                    class="d-none d-md-inline">→</span></h2>
-                        </div>
                     </div>
-                    <div class="col-md-8 p-5 align-self-center text-center">
-                        {% assign categories_list = site.categories %}
-                        {% if categories_list.first[0] == null %}
-                        {% for category in categories_list %}
-                        <a class="mt-1 mb-1"
-                            href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }}
-                            ({{ site.tags[category].size }})</a>
-                        {% endfor %}
-                        {% else %}
-                        {% for category in categories_list %}
-                        <a class="mt-1 mb-1"
-                            href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }}
-                            ({{ category[1].size }})</a>
-                        {% endfor %}
-                        {% endif %}
-                        {% assign categories_list = nil %}
-                    </div>
+
                 </div>
-            </div>
-
-            <!-- Begin Footer
+            </nav>
+            <!-- End Navigation
 ================================================== -->
-            <footer class="footer">
+
+            <div class="site-content">
+
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                            Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+
+
+                    <!-- Content
+================================================== -->
+
+                    <div class="main-content">
+                        {{ content }}
+                    </div>
+
+                    <!-- Categories Jumbotron
+================================================== -->
+                    <div class="jumbotron fortags">
+                        <div class="d-md-flex h-100">
+                            <div class="col-md-4 transpdark align-self-center text-center h-100">
+                                <div class="d-md-flex align-items-center justify-content-center h-100">
+                                    <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore
+                                        <span class="d-none d-md-inline">→</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-5 align-self-center text-center">
+                                {% assign categories_list = site.categories %}
+                                {% if categories_list.first[0] == null %}
+                                    {% for category in categories_list %}
+                                        <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }}
+                                            ({{ site.tags[category].size }})</a>
+                                    {% endfor %}
+                                {% else %}
+                                    {% for category in categories_list %}
+                                        <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }}
+                                            ({{ category[1].size }})</a>
+                                    {% endfor %}
+                                {% endif %}
+                                {% assign categories_list = nil %}
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Begin Footer
+================================================== -->
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                                    Copyright ©
+                                    {{ site.time | date: "%Y" }}
+                                    {{ site.name }}
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- End Footer
+================================================== -->
+
                 </div>
-            </footer>
-            <!-- End Footer
+                <!-- /.site-content -->
+                                                                                                                                                                                
+                                                                                                                                                                                        <!-- Scripts
 ================================================== -->
 
-        </div> <!-- /.site-content -->
+                <script async crossorigin="anonymous" defer integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 
-        <!-- Scripts
-================================================== -->
-
-        <script async defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
-
-        <script async defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
+                <script async crossorigin="anonymous" defer integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 
-</body>
-
-</html>
+            </body>
+        </html</body>
+    </body>
+</html>>
