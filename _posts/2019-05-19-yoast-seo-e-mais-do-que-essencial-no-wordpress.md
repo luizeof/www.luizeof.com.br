@@ -4,6 +4,7 @@ date: "2019-05-19"
 categories: [ wordpress ]
 lang: "pt-BR"
 image: "assets/images/category/wordpress-full.png"
+featured: true
 ---
 
 O Yoast SEO oferece uma série de benefícios que auxiliam o posicionamento do seu Website no Google. Nesse episódio conheça os recursos do Yoast SEO e veja como ele pode te ajudar.

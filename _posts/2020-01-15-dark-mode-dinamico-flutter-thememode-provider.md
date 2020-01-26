@@ -7,6 +7,7 @@ categories: [ flutter ]
 tags: [flutter, ui]
 rating: 5
 lang: "pt-BR"
+featured: true
 image: "assets/images/category/flutter-full.png"
 ---
 

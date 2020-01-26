@@ -3,6 +3,7 @@ title: "Banco de Dados SQLite no Flutter com o plugin sqflite"
 date: "2019-12-30"
 categories: [ flutter ]
 lang: "pt-BR"
+featured: true
 image: "assets/images/category/flutter-full.png"
 ---
 

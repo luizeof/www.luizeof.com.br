@@ -3,6 +3,7 @@ title: "Como melhorar a pesquisa com o Rich Snippets e o Schema.org"
 date: "2019-12-07"
 categories: [ wordpress ]
 lang: "pt-BR"
+featured: true
 image: "assets/images/category/wordpress-full.png"
 ---
 
