@@ -52,7 +52,7 @@ Veja que é possível utilizar o parâmetro `fit` para ajustar o tamanho da im
 
 `contain`: Mantém a imagem a maior possível, enquanto ainda contém a fonte inteiramente dentro do widget de destino.
 
-![contain: Mantém a imagem a maior possível, enquanto ainda contém a fonte inteiramente dentro do widget de destino.](images/box_fit_contain.png)
+![contain: Mantém a imagem a maior possível, enquanto ainda contém a fonte inteiramente dentro do widget de destino.](/assets/images/box_fit_contain.png)
 
 `cover`: O menor possível, enquanto ainda cobre toda o widget de destino.
 
@@ -60,27 +60,25 @@ Veja que é possível utilizar o parâmetro `fit` para ajustar o tamanho da im
 
 `fill`: Preenche o widget de destino distorcendo a proporção da imagem.
 
-![](images/box_fit_fill.png)
+![box_fit_fill](/assets/images/box_fit_fill.png)
 
 `fitHeight`: Verifica se a altura total da imagem é exibida, independentemente disso significar que a imagem exceda o widget de destino horizontalmente.
 
-![](images/box_fit_fitHeight.png)
+![box_fit_fitHeight](/assets/images/box_fit_fitHeight.png)
 
 `fitWidth`: Verifique se a largura total da fonte é mostrada, independentemente disso significar que a fonte excede a caixa de destino na vertical.
 
-![](images/box_fit_fitWidth.png)
+![box_fit_fitWidth](/assets/images/box_fit_fitWidth.png)
 
 `none`: Alinhe a fonte na caixa de destino (por padrão, centralizado) e descarta todas as partes da imagem que estiverem fora da widget.
 
-![](images/box_fit_none.png)
+![box_fit_none](/assets/images/box_fit_none.png)
 
 `scaleDown`: Alinha a imagem no widget de destino (por padrão, centralizado) e, se necessário, reduz a fonte para garantir que ela se encaixe na caixa.
 
 É o mesmo que `contain` se isso reduzir a imagem, caso contrário, é o mesmo que `none`.
 
-![](images/box_fit_scaleDown.png)
-
-\`
+![box_fit_scaleDown](/assets/images/box_fit_scaleDown.png)
 
 ## Adicionando Imagem remota no Flutter com Image Widget
 

@@ -6,7 +6,7 @@ lang: "en"
 image: "assets/images/category/flutter-full.png"
 ---
 
-Work is underway to extend [Flutter](https://www.luizeof.com.br/en/flutter/) to support the desktop, allowing developers to build macOS, Windows, and Linux applications with Flutter Desktop.
+Work is underway to extend [Flutter](https://www.luizeof.com.br/) to support the desktop, allowing developers to build macOS, Windows, and Linux applications with Flutter Desktop.
 
 Flutter 1.3 Alpha currently lets you compile Flutter source code for a native macOS application.
 
@@ -63,7 +63,7 @@ Flutter Desktop mode includes the create and build commands, as well as the run 
 
 In Android Studio you can see MacOS as Device:
 
-![](images/flutter-desktop-android-studio-1.png)
+![Android Studio](/assets/images/flutter-desktop-android-studio.webp)
 
 ## Add desktop to an existing project
 

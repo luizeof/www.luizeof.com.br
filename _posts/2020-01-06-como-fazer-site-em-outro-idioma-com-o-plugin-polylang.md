@@ -6,7 +6,7 @@ image: "assets/images/category/wordpress-full.png"
 lang: "pt-BR"
 ---
 
-O Polylang permite criar um site [WordPress](https://www.luizeof.com.br/br/wordpress/) bilíngue ou multilíngue. Você escreve postagens, páginas e cria categorias e tags de postagem como de costume e depois define o idioma para cada uma delas.
+O Polylang permite criar um site [WordPress](https://www.luizeof.com.br/) bilíngue ou multilíngue. Você escreve postagens, páginas e cria categorias e tags de postagem como de costume e depois define o idioma para cada uma delas.
 
 O **Polylang** é disponível gratuitamente no [diretório de plugins do Wordpress](https://br.wordpress.org/plugins/polylang/).
 
@@ -29,11 +29,11 @@ A [Lingotek](https://polylang.pro/) oferece um sistema completo de gerenciamento
 
 ## Tradução de Texto
 
-![Tradução de Texto com o Polylang](/assets/images/screenshot-2.png)
+![Tradução de Texto com o Polylang](/assets/images/screenshot-2.webp)
 
 Tradução de Posts e Páginas com Polylang
 
-![Tradução de Posts e Páginas com Polylang](/assets/images/screenshot-4.png)
+![Tradução de Posts e Páginas com Polylang](/assets/images/screenshot-4.webp)
 
 ## Funções disponíveis para Temas e Plugins
 

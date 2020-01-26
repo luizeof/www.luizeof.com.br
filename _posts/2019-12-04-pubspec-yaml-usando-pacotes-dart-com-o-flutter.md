@@ -6,7 +6,7 @@ lang: "pt-BR"
 image: "assets/images/category/flutter-full.png"
 ---
 
-O SDK do [Flutter](https://www.luizeof.com.br/br/flutter/) suporta o uso de [pacotes compartilhados](https://flutter.dev/docs/development/packages-and-plugins/using-packages) contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart através da declaração no arquivo _pubspec.yaml_.
+O SDK do [Flutter](https://www.luizeof.com.br/) suporta o uso de [pacotes compartilhados](https://flutter.dev/docs/development/packages-and-plugins/using-packages) contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart através da declaração no arquivo _pubspec.yaml_.
 
 Isso permite criar rapidamente um aplicativo sem precisar desenvolver tudo do zero.
 
@@ -95,7 +95,7 @@ O **Hot Reload** e o **Hot Restart** atualizam apenas o código **Dart**, portan
 
 Para um exemplo completo, consulte o exemplo `localstorage` abaixo.
 
-[![Adicionando uma dependência de pacote no pubspec.yaml](images/dependencies-android-studio.png)](https://luizeof.com.br/wp-content/uploads/2019/12/dependencies-android-studio.png)
+![Adicionando uma dependência de pacote no pubspec.yaml](/assets/images/dependencies-android-studio.webp)
 
 ## Gerenciando versões de pacote no Flutter
 
@@ -129,11 +129,11 @@ Após declarar os pacotes que seu app necessita no arquivo pubspec.yaml, você d
 flutter pub get
 ```
 
-[![Instalando os Pacotes na máquina de desenvolvimento do pubspec.yaml](images/flutter-pub-get.png)](https://luizeof.com.br/wp-content/uploads/2019/12/flutter-pub-get.png)
+![Instalando os Pacotes na máquina de desenvolvimento do pubspec.yaml](/assets/images/flutter-pub-get.webp)
 
 Você também pode instalar os plugins através do Android Studio ou do Visual Studio Code. Veja um exemplo:
 
-![Instalando os Pacotes na máquina de desenvolvimento](images/android-studio-pub-get.png)
+![Instalando os Pacotes na máquina de desenvolvimento](/assets/images/android-studio-pub-get.webp)
 
 Ao executar o `flutter pub get` (que pode ser automático no Android Studio e no VS Code) pela primeira vez após adicionar um pacote, o Flutter salva a versão concreta do pacote encontrada no arquivo de bloqueio pubspec.lock.
 
@@ -141,7 +141,7 @@ Isso garante que você obtenha a mesma versão novamente se você, ou outro dese
 
 Para atualizar para uma nova versão do pacote, por exemplo, para usar novos recursos nesse pacote, execute a `flutter pub upgrade` para recuperar a versão mais nova disponível do pacote, permitida pela restrição de versão especificada em `pubspec. yaml`.
 
-[![Atualizando os Pacotes na máquina de desenvolvimento](images/flutter-pub-upgrade.png)](https://luizeof.com.br/wp-content/uploads/2019/12/flutter-pub-upgrade.png)
+![Atualizando os Pacotes na máquina de desenvolvimento](/assets/images/flutter-pub-upgrade.webp)
 
 ## Finalizando
 

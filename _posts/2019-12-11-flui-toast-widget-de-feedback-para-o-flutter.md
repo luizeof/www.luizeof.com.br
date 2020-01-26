@@ -12,7 +12,7 @@ Um Toast é a melhor maneira de você notificar os usuários sobre alterações 
 
 Esses Feedbacks visuais são importantes para que o usuário compreenda o funcionamento do aplicativo e são menos invasivos do que as notificações tradicionais do Android e iOS.
 
-![FLUI Toast: Widget de feedback para o Flutter](images/2019-12-11-toast.gif)
+![FLUI Toast: Widget de feedback para o Flutter](/assets/images/2019-12-11-toast.gif)
 
 Para facilitar a vida do desenvolvedor o FLUI oferece o `FLToastDefaults`, onde é possível definir o padrão visual e de comportamento das mensagens exibidas pelo Widget `Toast`, como a duração da exibição da mensagem com a propriedade `showDuration`, o padrão de cores com `darkColor` e `darkBackgroundColor`, a opacidade da mensagem com `backgroundOpacity` e a posição com `position`. é um Widget muito personalizável.
 
@@ -41,7 +41,7 @@ O `FLToastProvider` fornece a capacidade de exibir Toast na árvore de sub-widge
 ```dart
 class _MyAppState extends State<MyApp> {
   FLToastDefaults _toastDefaults = FLToastDefaults();
-  
+
   @override
   Widget build(BuildContext context) {
     return FLToastProvider(
@@ -97,7 +97,7 @@ FLToast.error(text: 'Something was wrong');
 
 ## Finalizando
 
-O [FLUI](https://www.luizeof.com.br/flutter/flui-e-um-conjunto-de-widgets-para-o-flutter/) é excelente e possui widgets fantásticos como o Toast. A cada nova versão os Widgets ficam mais estáveis e completos e permitem que você use componentes visuais que se encaixam perfeitamente nos seus apps.
+O [FLUI](https://www.luizeof.com.br/flui-e-um-conjunto-de-widgets-para-o-flutter/) é excelente e possui widgets fantásticos como o Toast. A cada nova versão os Widgets ficam mais estáveis e completos e permitem que você use componentes visuais que se encaixam perfeitamente nos seus apps.
 
 Recomendo ;)
 

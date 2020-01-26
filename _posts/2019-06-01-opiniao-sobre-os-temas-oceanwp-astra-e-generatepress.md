@@ -9,3 +9,4 @@ image: "assets/images/category/podcast-full.png"
 Nesse episódio minhas considerações sobre os temas OceanWP, GeneratePress e o Astra.
 
 https://open.spotify.com/episode/45RnMCFQdSMfpuLWhV8iPr
+

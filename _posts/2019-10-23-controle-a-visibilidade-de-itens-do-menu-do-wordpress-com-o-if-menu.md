@@ -18,9 +18,9 @@ Controle quais itens de menu os visitantes do seu site veem, com base nas regras
 
 O plugin é fácil de usar, cada item de menu terá uma nova opção “Alterar a visibilidade do item de menu”, que permitirá a seleção de regras:
 
-![Controle a visibilidade de itens do menu do Wordpress com o IF Menu](images/0_XDRYK-3Xria8B43L.png)
+![Controle a visibilidade de itens do menu do Wordpress com o IF Menu](/assets/images/0_XDRYK-3Xria8B43L.png)
 
-![Controle a visibilidade de itens do menu do Wordpress com o IF Menu](images/0_VyvqKHLvD1EPv7s4.png)
+![Controle a visibilidade de itens do menu do Wordpress com o IF Menu](/assets/images/0_VyvqKHLvD1EPv7s4.png)
 
 Principais Características do IF Menu:
 

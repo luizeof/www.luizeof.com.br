@@ -6,7 +6,7 @@ lang: "pt-BR"
 image: "assets/images/category/flutter-full.png"
 ---
 
-O Expanded Widget expande um `child` de uma `Row`, `Column` ou `Flex` para que o `child` [preencha o espaço disponível](https://api.flutter.dev/flutter/widgets/Expanded-class.html) na estrutura de layout do [Flutter](https://stackingwidgets.com/br/flutter/).
+O Expanded Widget expande um `child` de uma `Row`, `Column` ou `Flex` para que o `child` [preencha o espaço disponível](https://api.flutter.dev/flutter/widgets/Expanded-class.html) na estrutura de layout do [Flutter](https://www.luizeof.com/).
 
 O uso de um widget `Expanded` faz com que um child de uma `Row`, `Column` ou `Flex` se expanda para preencher o espaço disponível ao longo do eixo principal (por exemplo, horizontalmente para uma Linha ou verticalmente para uma Coluna). Se vários filhos forem expandidos, o espaço disponível será dividido entre eles de acordo com o fator [Flex](https://api.flutter.dev/flutter/widgets/Flexible/flex.html).
 
@@ -50,7 +50,7 @@ Row(
 
 que vai gerar algo desse tipo:
 
-![Row com 3 Widgets sem o Expanded](images/widget-expanded-1-576x1024.png)
+![Row com 3 Widgets sem o Expanded](/assets/images/widget-expanded-1-576x1024.png)
 
 Para alinhar os itens da linha, você pode usar a propriedade `mainAxisAlignment` do `Row`, com o valor `MainAxisAlignment.spaceBetween` que vai deixar todos os widgets com o mesmo espaço entre eles:
 
@@ -65,7 +65,7 @@ Row(
 ),
 ```
 
-![Row com 3 Widgets sem o Expanded e com Alinhamento Igual](images/widget-expanded-2-576x1024.png)
+![Row com 3 Widgets sem o Expanded e com Alinhamento Igual](/assets/images/widget-expanded-2-576x1024.png)
 
 É aí que entra o `Expanded` Widget, pois se você deseja que um dos widgets se expanda para preencher o espaço extra na linha ou coluna, é possível agrupá-lo facilmente com um widget `Expanded`:
 
@@ -87,7 +87,7 @@ Row(
 
 Vai gerar o seguinte resultado:
 
-![Row com 3 Widgets com o Expanded](images/widget-expanded-3-576x1024.png)
+![Row com 3 Widgets com o Expanded](/assets//widget-expanded-3-576x1024.png)
 
 Você pode ainda mixar os Widgets com e sem o Expanded para criar layouts mais atraentes:
 
@@ -105,7 +105,7 @@ Row(
 
 O snippet acima vai resultar em:
 
-![Row com 3 Widgets sem o Expanded e Flex](images/widget-expanded-4-576x1024.png)
+![Row com 3 Widgets sem o Expanded e Flex](/assets/images/widget-expanded-4-576x1024.png)
 
 E se você possui alguns widgets que deseja compartilhar o espaço extra (mas não igualmente), pode definir a propriedade `flex` do Widget `Expanded`.:
 
@@ -126,7 +126,7 @@ children: [
 
 No exemplo acima o primeiro e o terceiro widgets têm um tamanho fixo. O segundo e o quarto widget da `Row` compartilham o espaço extra porque são agrupados com o `Expanded`. No entanto, como os fatores `flex` estão sendo usados, o segundo widget obtém o dobro da largura do quarto. O resultado é esse:
 
-![Row com 3 Widgets sem o Expanded e Flex diferentes](images/widget-expanded-5-576x1024.png)
+![Row com 3 Widgets sem o Expanded e Flex diferentes](/assets/images/widget-expanded-5-576x1024.png)
 
 O uso do Widget Expanded é fundamental para que você possa preencher os espaços no Layout dos apps desenvolvidos no Flutter.
 

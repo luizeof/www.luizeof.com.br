@@ -14,7 +14,7 @@ A promessa do editor de blocos é dar aos usuários a liberdade de projetar e es
 
 A responsabilidade de um tema é capacitar os usuários a criar sua visão inspirada, fazendo com que o resultado final pareça tão bom e funcione também, conforme desejado pelo usuário.
 
-[Conforme especulado no início desta semana](https://luizeof.com.br/podcast/wordpress-5-2-3-e-5-3-gutenberg-6-4-e-novos-malwares/), o WordPress redefinirá o tema Chaplin de Noren para agilizar o envio do novo tema padrão na linha do tempo restrita da versão 5.3.
+[Conforme especulado no início desta semana](https://luizeof.com.br/wordpress-5-2-3-e-5-3-gutenberg-6-4-e-novos-malwares/), o WordPress redefinirá o tema Chaplin de Noren para agilizar o envio do novo tema padrão na linha do tempo restrita da versão 5.3.
 
 ## Twenty Twenty é Baseado no Chaplin, porém diferente
 
@@ -24,11 +24,11 @@ Embora o novo tema padrão seja baseado no Chaplin, ele não manterá o mesmo es
 
 As capturas de tela que ele compartilhou no anúncio parecem um tema completamente diferente.
 
-![Twenty Twenty: Veja o novo tema padrão do Wordpress 5.3](images/0_WRnRg0i6vMskxWol.jpg)
+![Twenty Twenty: Veja o novo tema padrão do Wordpress 5.3](/assets/images/0_WRnRg0i6vMskxWol.jpg)
 
 Com apenas algumas alterações de cor e tipografia, além de uma coluna centralizada para o conteúdo, o Twenty Twenty tem seu próprio caráter distinto.
 
-![Twenty Twenty: Veja o novo tema padrão do Wordpress 5.3](images/0_zPu9PvjKopVjRM0f.jpg)
+![Twenty Twenty: Veja o novo tema padrão do Wordpress 5.3](/assets/images/0_zPu9PvjKopVjRM0f.jpg)
 
 Norén disse que o projetou para ser um tema flexível e multifuncional, adequado para empresas, organizações e blogs, dependendo da combinação de blocos.
 

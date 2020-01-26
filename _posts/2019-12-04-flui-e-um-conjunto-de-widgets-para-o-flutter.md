@@ -12,7 +12,7 @@ Os widgets são compatíveis com MaterialApp e não estilizados suportam a perso
 
 As ações do usuário geram feedback claro sobre os elementos da interface do usuário, e os usuários podem perceber estados através da interação da interface.
 
-**Flutter SDK**
+## Flutter SDK
 
 Use o Flutter SDK >= v1.12.13+hotfix.5
 
@@ -33,7 +33,7 @@ Portanto, o FLUI seguirá a versão oficial do Flutter para atualizar o máximo 
 
 A crescente lista de Widgets do FLUI já inclui: [Button](https://www.flui.xin/en/widgets/button.html), [Label, Toast,](https://www.flui.xin/en/widgets/button.html) [Bubble](https://www.flui.xin/en/widgets/button.html), [Input](https://www.flui.xin/en/widgets/button.html), [Avatar,](https://www.flui.xin/en/widgets/button.html) [Badge,](https://www.flui.xin/en/widgets/button.html) [Image,](https://www.flui.xin/en/widgets/button.html) [CountStepper](https://www.flui.xin/en/widgets/button.html), [AppBar](https://www.flui.xin/en/widgets/button.html), [NoticeBar](https://www.flui.xin/en/widgets/button.html), [Empty](https://www.flui.xin/en/widgets/button.html), [Skeleton](https://www.flui.xin/en/widgets/button.html), [BottomSheet,](https://www.flui.xin/en/widgets/button.html) [List](https://www.flui.xin/en/widgets/button.html) e [Theme](https://www.flui.xin/en/widgets/button.html).
 
-[![FLUI é um conjunto de widgets para usar com o Flutter](images/flui-widget-kit-flutter-964x1024.png)](https://www.luizeof.com.br/wp-content/uploads/2019/12/flui-widget-kit-flutter.png)
+![FLUI é um conjunto de widgets para usar com o Flutter](/assets/images/flui-widget-kit-flutter-964x1024.png)
 
 ## Instalação do FLUI
 
@@ -56,4 +56,4 @@ Agora já é possível acessar os Widgets do FLUI.
 
 ## Finalizando
 
-Gostou do [FLUI](https://www.luizeof.com.br/flutter/flui-e-um-conjunto-de-widgets-para-o-flutter/)? Espero que o conjunto de Widget seja de bom uso para o seus projetos, eu uso aqui e gosto muito do que ele oferece. Um grande abraço!
+Gostou do [FLUI](https://www.luizeof.com.br/flui-e-um-conjunto-de-widgets-para-o-flutter/)? Espero que o conjunto de Widget seja de bom uso para o seus projetos, eu uso aqui e gosto muito do que ele oferece. Um grande abraço!

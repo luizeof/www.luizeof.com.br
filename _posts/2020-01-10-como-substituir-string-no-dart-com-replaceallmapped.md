@@ -7,7 +7,7 @@ lang: "pt-BR"
 image: "assets/images/category/flutter-full.png"
 ---
 
-O Dart fornece um [método](https://api.dart.dev/stable/2.7.0/dart-core/String/replaceAllMapped.html) chamado _replaceAllMapped_ para substituir facilmente qualquer parte de uma substring em uma [String](https://www.luizeof.com.br/br/flutter/os-tipos-de-dados-do-dart-e-flutter/) usando expressões regulares que oferece mais opções que o método _replaceAll_.
+O Dart fornece um [método](https://api.dart.dev/stable/2.7.0/dart-core/String/replaceAllMapped.html) chamado _replaceAllMapped_ para substituir facilmente qualquer parte de uma substring em uma [String](https://www.luizeof.com.br/os-tipos-de-dados-do-dart-e-flutter/) usando expressões regulares que oferece mais opções que o método _replaceAll_.
 
 ## O replaceAll() ajuda a substituir strings simples
 
@@ -62,7 +62,7 @@ void main() {
 
 Ele imprimirá a saída abaixo:
 
-```
+```text
 *bcd*fgh*jklmn*pqrst*vwxyz
 ```
 

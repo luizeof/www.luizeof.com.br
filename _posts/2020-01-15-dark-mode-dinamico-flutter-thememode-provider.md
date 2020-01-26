@@ -12,11 +12,11 @@ image: "assets/images/category/flutter-full.png"
 
 Neste artigo vou apresentar um método de implementar o Dark Mode dinâmico no Flutter usando o `ThemeMode` e o plugin `provider`.
 
-Existem muitas maneiras de aplicar o tema dinâmico no Flutter, mas o plugin `provider` é uma das maneiras melhores e mais eficientes e estou usando no [FluCast](https://www.luizeof.com.br/br/flucast-player-podcast-open-source/).
+Existem muitas maneiras de aplicar o tema dinâmico no Flutter, mas o plugin `provider` é uma das maneiras melhores e mais eficientes e estou usando no [FluCast](https://www.luizeof.com.br/flucast-player-podcast-open-source/).
 
 O plugin `provider` é uma mistura entre _**Injeção de Dependência (DI)**_ e gerenciamento de estado, construído com widgets para widgets.
 
-Ele usa propositalmente widgets para gerenciamento de DI / estado, em vez de classes Dart, como `Stream`. A razão é que os widgets são muito simples, mas robustos e escaláveis e pra quem usa o [Flutter](https://www.luizeof.com.br/br/flutter/) é mais natural.
+Ele usa propositalmente widgets para gerenciamento de DI / estado, em vez de classes Dart, como `Stream`. A razão é que os widgets são muito simples, mas robustos e escaláveis e pra quem usa o [Flutter](https://www.luizeof.com.br/) é mais natural.
 
 Ao usar widgets para gerenciamento de estado, o provedor pode garantir:
 
@@ -32,7 +32,7 @@ Nesse exemplo vamos usar o `ThemeMode` nativo do Flutter para controlar o **Dark
 
 Você também deve ter notado que o Google Maps possui o mesmo recurso para os modos noturno e diurno, que são ligados e desligados automaticamente de acordo com a luz. É um recurso cada vez mais comum hoje em dia.
 
-Adicione o plugin `provider` no arquivo [**_pubspec.yaml_**](https://www.luizeof.com.br/br/flutter/pubspec-yaml-usando-pacotes-dart-com-o-flutter/):
+Adicione o plugin `provider` no arquivo [**_pubspec.yaml_**](https://www.luizeof.com.br/pubspec-yaml-usando-pacotes-dart-com-o-flutter/):
 
 ```yaml
 dependencies:  
@@ -88,7 +88,7 @@ Eu implementei uma opção para alternar entre o modo escuro e claro do tema. A 
 
 ## Lendo os dados do Provider
 
-O plugin `provider` oferece o método `Provider.of(context)` que permite ler os dados do nosso [MaterialApp](https://www.luizeof.com.br/br/flutter/materialapp-usando-widgets-material-design-no-flutter/) e pode ser acessado em qualquer lugar:
+O plugin `provider` oferece o método `Provider.of(context)` que permite ler os dados do nosso [MaterialApp](https://www.luizeof.com.br/materialapp-usando-widgets-material-design-no-flutter/) e pode ser acessado em qualquer lugar:
 
 ```dart
 // Aqui capturamos os dados do nosso ThemeProvider

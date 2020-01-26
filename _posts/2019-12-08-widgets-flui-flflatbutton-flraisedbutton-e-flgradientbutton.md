@@ -8,9 +8,9 @@ image: "assets/images/category/flutter-full.png"
 
 Os Widgets e botões do FLUI **FLFlatButton** e **FLRaisedButton** incluem alguns widgets baseados no `FlatButton` & `RaisedButton` nativos do Flutter e também adicionaram `FLGradientButton`, que oferece suporte ao fundo gradiente e o `FLLoadingButton`, que suporta animação de carregamento.
 
-> O [FLUI](https://www.luizeof.com.br/flutter/flui-e-um-conjunto-de-widgets-para-o-flutter/) é um kit de widgets Open Source para o [Flutter](https://www.luizeof.com.br/br/flutter/) que possui muitos widgets de interface do usuário de alta qualidade, fornecendo recursos e funções mais avançados para melhorar a eficiência do desenvolvimento.
-> 
-> Os widgets são compatíveis com [MaterialApp](https://www.luizeof.com.br/br/flutter/materialapp-usando-widgets-material-design-no-flutter/) e não estilizados suportam a personalização de estilos para atender a diferentes necessidades de interface. Você pode acompanhar o desenvolvimento do [FLUI](https://www.luizeof.com.br/br/flutter/flui-e-um-conjunto-de-widgets-para-o-flutter/) no [repositório oficial do Github.](https://github.com/Rannie/flui/)
+> O [FLUI](https://www.luizeof.com.br/flui-e-um-conjunto-de-widgets-para-o-flutter/) é um kit de widgets Open Source para o [Flutter](https://www.luizeof.com.br/) que possui muitos widgets de interface do usuário de alta qualidade, fornecendo recursos e funções mais avançados para melhorar a eficiência do desenvolvimento.
+
+Os widgets são compatíveis com [MaterialApp](https://www.luizeof.com.br/materialapp-usando-widgets-material-design-no-flutter/) e não estilizados suportam a personalização de estilos para atender a diferentes necessidades de interface. Você pode acompanhar o desenvolvimento do [FLUI](https://www.luizeof.com.br/flui-e-um-conjunto-de-widgets-para-o-flutter/) no [repositório oficial do Github.](https://github.com/Rannie/flui/)
 
 ## Widget FLFlatButton
 
@@ -24,7 +24,7 @@ Os `FLFlatButton` intencionalmente não possuem bordas visíveis e, portanto, de
 
 Nos diálogos e cartões, eles devem ser agrupados em um dos cantos inferiores. Evite usar `FLFlatButton` onde eles se misturam com outro conteúdo, por exemplo, no meio das listas pois podem atrapalhar a interação do usuário.
 
-## FLFlatButton com a opção _expanded_:
+## FLFlatButton com a opção _expanded_
 
 ```dart
 FLFlatButton(
@@ -36,9 +36,9 @@ FLFlatButton(
 ),
 ```
 
-![Widget FLFlatButton](images/FLFlatButton-expanded.png)
+![Widget FLFlatButton](/assets/images/FLFlatButton-expanded.webp)
 
-## _FLFlatButton_ com a opção de _icon_:
+## _FLFlatButton_ com a opção de _icon_
 
 ```dart
 FLFlatButton.icon(
@@ -52,7 +52,7 @@ FLFlatButton.icon(
 ),
 ```
 
-![FLFlatButton com a opção de icon](images/FLFlatButton-icon.png)
+![FLFlatButton com a opção de icon](/assets/images/FLFlatButton-icon.webp)
 
 ## Widget _FLRaisedButton_
 
@@ -73,7 +73,7 @@ FLGradientButton.linear(
 ),
 ```
 
-![Widget FLFlatButton FLGradientButton linear](images/FLGradientButton.linear.png)
+![Widget FLFlatButton FLGradientButton linear](/assets/images/FLGradientButton.linear.webp)
 
 ## Widget _FLGradientButton.sweep_
 
@@ -97,7 +97,7 @@ FLGradientButton.sweep(
 ),
 ```
 
-![Widget FLFlatButton FLGradientButton sweep](images/FLGradientButton.sweep_.png)
+![Widget FLFlatButton FLGradientButton sweep](/assets/images/FLGradientButton.sweep_.webp)
 
 ## Widget _FLGradientButton.radial_
 
@@ -117,7 +117,7 @@ FLGradientButton.radial(
 ),
 ```
 
-![Widget FLGradientButton radial](images/FLGradientButton.radial.png)
+![Widget FLGradientButton radial](/assets/images/FLGradientButton.radial.webp)
 
 ## Widget _FLLoadingButton_
 
@@ -140,7 +140,7 @@ FLLoadingButton(
 ),
 ```
 
-![Widget FLLoadingButton](images/FLLoadingButton.gif)
+![Widget FLLoadingButton](/assets/images/FLLoadingButton.gif)
 
 ## Finalizando
 

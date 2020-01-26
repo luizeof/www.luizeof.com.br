@@ -6,14 +6,13 @@ lang: "en"
 image: "assets/images/category/flutter-full.png"
 ---
 
-FLUI is an Open Source widget kit for [Flutter](https://www.luizeof.com.br/en/flutter/) that has many high quality UI widgets, providing more advanced features and functions to improve development efficiency.
+FLUI is an Open Source widget kit for [Flutter](https://www.luizeof.com.br/) that has many high quality UI widgets, providing more advanced features and functions to improve development efficiency.
 
 Widgets are MaterialApp compliant and non-styled support style customization to meet different interface needs. You can follow the development of FLUI in the [official Github repository.](https://github.com/Rannie/flui/)
 
 User actions generate clear feedback on UI elements, and users can perceive states through interface interaction.
 
-**Flutter SDK  
-**
+## Flutter SDK
 
 Use o Flutter SDK >= v1.12.13+hotfix.5
 
@@ -32,7 +31,7 @@ Therefore, FLUI will follow the official version of Flutter to update as much as
 
 FLUI's growing list of widgets already includes: [Button](https://www.flui.xin/en/widgets/button.html), [Label, Toast,](https://www.flui.xin/en/widgets/button.html) [Bubble](https://www.flui.xin/en/widgets/button.html), [Input](https://www.flui.xin/en/widgets/button.html), [Avatar,](https://www.flui.xin/en/widgets/button.html) [Badge,](https://www.flui.xin/en/widgets/button.html) [Image,](https://www.flui.xin/en/widgets/button.html) [CountStepper](https://www.flui.xin/en/widgets/button.html), [AppBar](https://www.flui.xin/en/widgets/button.html), [NoticeBar](https://www.flui.xin/en/widgets/button.html), [Empty](https://www.flui.xin/en/widgets/button.html), [Skeleton](https://www.flui.xin/en/widgets/button.html), [BottomSheet,](https://www.flui.xin/en/widgets/button.html) [List](https://www.flui.xin/en/widgets/button.html) and [Theme](https://www.flui.xin/en/widgets/button.html).
 
-![FLUI Key Features](images/flui-widget-kit-flutter-1-964x1024.png)
+![FLUI Key Features](/assets/images/flui-widget-kit-flutter-1-964x1024.png)
 
 ## FLUI Installation
 

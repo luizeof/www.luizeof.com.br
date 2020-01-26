@@ -12,7 +12,7 @@ As Assinaturas com **WooCommerce Subscriptions **permitem que você introduza 
 
 Um modelo baseado em assinatura permitirá que você capture mais receita residual — e tudo o que você precisa fazer é enviar os pedidos.
 
-## Por que usar WooCommerce Subscriptions?
+## Por que usar WooCommerce Subscriptions
 
 Crie clubes de produtos do mês, assinaturas de serviços semanais ou até mesmo pacotes anuais de faturamento de software. Adicione taxas de inscrição, ofereça avaliações gratuitas ou defina períodos de expiração.
 
@@ -32,9 +32,9 @@ Cobrar uma quantia inicial para contabilizar os custos de configuração do clie
 
 ## Processo de Renovação de Assinaturas do WooCommerce Subscriptions
 
-![Processo de Renovação de Assinaturas](images/1_3yzD-yUL0BIVEY0pifUTTg.png)
+![Processo de Renovação de Assinaturas](/assets/images/1_3yzD-yUL0BIVEY0pifUTTg.png)
 
-Um recurso importante de uma assinatura é um pagamento recorrente — um pagamento devido em intervalos regulares ao longo do tempo. Esses pagamentos são o bloco básico de um processo de renovação maior em assinaturas da [WooCommerce](https://www.luizeof.com.br/br/wordpress/).
+Um recurso importante de uma assinatura é um pagamento recorrente — um pagamento devido em intervalos regulares ao longo do tempo. Esses pagamentos são o bloco básico de um processo de renovação maior em assinaturas da [WooCommerce](https://www.luizeof.com.br/).
 
 As assinaturas realizam várias tarefas como parte da renovação, incluindo a geração de um pedido para registrar o pagamento, envio por e-mail para você e para o cliente por e-mail da renovação e, às vezes, processamento do pagamento. As tarefas reais executadas diferem dependendo de qual método está sendo usado para processar a renovação.
 
@@ -59,7 +59,7 @@ Você pode até ratear o primeiro pagamento de uma compra de assinatura sincroni
 
 Ao criar um produto de assinatura, você pode tornar o produto descarregável, virtual ou físico, cobrar pagamentos de renovação semanalmente, mensalmente ou anualmente, limitar o produto a um por cliente e até mesmo cobrar frete somente no pedido inicial.
 
-![Gerenciamento de Assinaturas com o WooCommerce Subscriptions](images/0_Ca3BLshWJLEQl5Fp.jpg)
+![Gerenciamento de Assinaturas com o WooCommerce Subscriptions](/assets/simages/0_Ca3BLshWJLEQl5Fp.jpg)
 
 ## Cupons de assinatura
 

@@ -1,6 +1,6 @@
 ---
 title: "Dart and Flutter data types"
-date: "2019-12-08"
+date: "2019-12-09"
 categories: [ flutter ]
 lang: "en"
 image: "assets/images/category/flutter-full.png"

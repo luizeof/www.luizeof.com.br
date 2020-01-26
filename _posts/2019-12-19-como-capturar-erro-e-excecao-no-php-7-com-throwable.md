@@ -14,7 +14,7 @@ No PHP 7+, uma exceção será lançada quando ocorrer um erro fatal e recuperá
 
 Erros fatais ainda existem para determinadas condições, como ficar sem memória, e ainda se comportam como antes, interrompendo imediatamente a execução do script. Uma exceção não detectada também continuará sendo um erro fatal no PHP 7.
 
-Em modos gerais isso significa que, se uma exceção gerada por um erro fatal no PHP 5.x não for detectada, ainda será um erro fatal no [PHP 7](https://www.luizeof.com.br/php/).
+Em modos gerais isso significa que, se uma exceção gerada por um erro fatal no PHP 5.x não for detectada, ainda será um erro fatal no [PHP 7](https://www.luizeof.com.br/).
 
 > Observe que outros tipos de erros, como avisos e avisos, permanecem inalterados no PHP 7. Apenas erros fatais e recuperáveis lançam exceções.
 

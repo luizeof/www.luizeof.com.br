@@ -12,7 +12,7 @@ https://open.spotify.com/episode/5flHTooMMubYZbUDNCsPuD
 
 O Yoast é o melhor o plugin WordPress SEO desde 2008 e pode realmente fazer a diferença no posicionamento do seu website nos mecanismos de busca como Google e Bing.
 
-É a ferramenta favorita de milhões de proprietários de websites em Wordpress, variando da padaria ao virar da esquina até alguns dos sites mais populares do planeta. Você pode usar a [versão gratuita disponível no diretório de plugins](https://br.wordpress.org/plugins/wordpress-seo/) do [Wordpress](https://www.luizeof.com.br/br/wordpress/).
+É a ferramenta favorita de milhões de proprietários de websites em Wordpress, variando da padaria ao virar da esquina até alguns dos sites mais populares do planeta. Você pode usar a [versão gratuita disponível no diretório de plugins](https://br.wordpress.org/plugins/wordpress-seo/) do [Wordpress](https://www.luizeof.com.br/).
 
 Com Yoast você obtém um conjunto de ferramentas sólido que ajuda você a apontar para o primeiro lugar nos resultados da pesquisa.
 
@@ -32,7 +32,7 @@ O Yoast SEO Premium torna realmente fácil seduzir os mecanismos de busca. Na ve
 
 Isso significa que você terá que escolher entre palavras-chave. Na versão Premium você pode utilizar quantas palavras-chave quiser.
 
-![Palavras-chave Ilimitadas com Yoast SEO Premium](images/0_iUikEo8NO0d6WyKS.png)
+![Palavras-chave Ilimitadas com Yoast SEO Premium](/assets/images/0_iUikEo8NO0d6WyKS.png)
 
 ## Análise de SEO da página
 
@@ -40,7 +40,7 @@ Em seguida seu conteúdo é analisado para verificar se você está usando as pa
 
 Lembre-se que você deve distribuir as palavras-chave ao longo das suas páginas e deve evitar repetir essas palavras em excesso.
 
-![Análise do Yoast SEO da página](images/0_65a4LlpSgWjmC_j6.png)
+![Análise do Yoast SEO da página](/assets/images/0_65a4LlpSgWjmC_j6.png)
 
 Em ambas as versões, o Yoast não apenas ajuda você a aumentar sua classificação nos resultados da pesquisa, mas também sua estratégia de conteúdo com insights valiosos e úteis para seu posicionamento.
 

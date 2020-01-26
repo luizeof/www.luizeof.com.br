@@ -31,7 +31,7 @@ Text('Text Shadows in Flutter',
 
 A sombra adicionada na propriedade do `TextStyle` é baseada na [classe](https://api.flutter.dev/flutter/dart-ui/Shadow-class.html) `Shadow` do Flutter.
 
-A propriedade da `fontFamily` determina o nome da fonte, que você pode usar no argumento `fontFamily`. A propriedade do ativo é um caminho para o arquivo de fonte, relativo ao arquivo [pubspec.yaml](https://www.luizeof.com.br/br/flutter/pubspec-yaml-usando-pacotes-dart-com-o-flutter/).
+A propriedade da `fontFamily` determina o nome da fonte, que você pode usar no argumento `fontFamily`. A propriedade do ativo é um caminho para o arquivo de fonte, relativo ao arquivo [pubspec.yaml](https://www.luizeof.com.br/pubspec-yaml-usando-pacotes-dart-com-o-flutter/).
 
 A propriedade weight especifica o peso dos contornos do glifo no arquivo como um número inteiro múltiplo de 100 entre 100 e 900.
 
@@ -39,7 +39,7 @@ Isso corresponde à classe `FontWeight` e pode ser usado no argumento `fontWeigh
 
 A cor base é `material.Colors` e `Color.withOpacity` pode ser usado para criar uma cor derivada com a opacidade desejada.
 
-![Como aplicar Sombra no Widget Text no Flutter](images/Flutter-Text-Shadow-576x1024.png)
+![Como aplicar Sombra no Widget Text no Flutter](/assets/images/Flutter-Text-Shadow.webp)
 
 A sombra padrão é preta com `offset` `0` e `blur` `0`.
 
@@ -55,4 +55,4 @@ A propriedade `offset` terá as coordenadas `x` e `y`; coordenadas positivas mov
 
 É bem simples aplicar sombras em texto no Flutter!
 
-[Não deixe de ler o artigo sobre Como adicionar uma imagem no Flutter com o Widget Image.](https://www.luizeof.com.br/br/flutter/image-widget-como-adicionar-uma-imagem-no-flutter/)
+[Não deixe de ler o artigo sobre Como adicionar uma imagem no Flutter com o Widget Image.](https://www.luizeof.com.br/image-widget-como-adicionar-uma-imagem-no-flutter/)

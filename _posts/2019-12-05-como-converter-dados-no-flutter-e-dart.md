@@ -1,6 +1,6 @@
 ---
 title: "Como converter dados no Flutter e Dart"
-date: "2019-12-05"
+date: "2019-12-03"
 categories: [ flutter ]
 lang: "pt-BR"
 image: "assets/images/category/flutter-full.png"

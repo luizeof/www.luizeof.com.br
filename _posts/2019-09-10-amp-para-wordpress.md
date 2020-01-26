@@ -18,7 +18,7 @@ De acordo com esse objetivo, aplicaremos o requisito de paridade próxima entre 
 
 Com o plugin oficial para WordPress ativo todas as postagens do seu site terão versões compatíveis com AMP, acessíveis ao incluir _/amp/_ ao final dos URLs das postagens.
 
-![AMP para WordPress otimiza seus artigos para SERP Mobile](images/0_LP6-Zri3Lygyg1vK.png)
+![AMP para WordPress otimiza seus artigos para SERP Mobile](/assets/images/0_LP6-Zri3Lygyg1vK.png)
 
 ## Benefícios do AMP para WordPress
 
@@ -26,21 +26,21 @@ O AMP pode ampliar o alcance do seu website na pesquisa orgânica do Google em d
 
 Outro ponto interessante é que o plugin  permite que você selecione o modo de layout para os seus posts.
 
-Recursos e capacidades fornecidos pelo plugin para [WordPress](https://www.luizeof.com.br/br/wordpress/) incluem:
+Recursos e capacidades fornecidos pelo plugin para [WordPress](https://www.luizeof.com.br/) incluem:
 
 - **Ferramenta de compatibilidade**: para auxiliar o desenvolvimento de experiências com AMP permitindo a depuração de AMP com informações detalhadas sobre erros de validação que podem existir, as marcações / scripts que os causam e os componentes específicos no site (por exemplo, tema, plug-in, etc) responsáveis ​​pelo conteúdo da página .
 - **C**o**mpatibilidade de CSS:** para ajudar a lidar com casos em que as regras CSS definidas em um site excedem o limite de tamanho CSS permitido em páginas com uma única.
-- **S**u**porte ao **[**Gutenberg**](https://luizeof.com.br/gutenberg/gutenberg-o-novo-editor-do-wordpress-5-0/): permitindo a criação de conteúdo totalmente integrado com o Gutenberg.
+- **Suporte ao Gutenberg**: permitindo a criação de conteúdo totalmente integrado com o Gutenberg.
 - **Suporte a AMP-First**: permitindo experiências no site completo sem sacrificar a flexibilidade da plataforma ou a fidelidade do conteúdo.
 - **Muitas otimizações**: vários aprimoramentos de experiência em código, desempenho e desenvolvedor: desde a flexibilidade de personalização até fluxos de interface do usuário, internacionalização, acessibilidade, etc.
 
-![Benefícios do AMP para WordPress](images/0_gwNzJZuJuU54ye41.png)
+![Benefícios do AMP para WordPress](/assets/images/0_gwNzJZuJuU54ye41.png)
 
 ## AMP no Search Console
 
 Alguns dias após a instalação do Plugin AMP para WordPress, você pode visualizar no Google Search Console o status da indexação das suas páginas AMP. Caso encontre algum erro o próprio Google Search Console exibe o log de erros.
 
-![AMP no Search Console](images/0_KfnLO8Jp40zip9ba.png)
+![AMP no Search Console](/assets/images/0_KfnLO8Jp40zip9ba.png)
 
 ## Novos Modelos, PWA e CDN
 
@@ -68,7 +68,7 @@ Ao reformulá-lo desta forma, foi deixado bem claro que o design básico do mode
 
 Por enquanto, o modo Reader continua sendo o modo padrão, mas a idéia é alternar para o modo nativo sendo o padrão quando um tema compatível está ativo. O modo Leitor é a única solução completa fornecida no plug-in.
 
-![Modelos reformulados no AMP 1.1](images/0_oVA5jdZrH2OIsfI_.png)
+![Modelos reformulados no AMP 1.1](/assets/images/0_oVA5jdZrH2OIsfI_.png)
 
 Nos modos Nativo e Transacional, também foi deixado bem claro que pode ser necessário algum trabalho de desenvolvimento para usá-los em um determinado tema e plug-ins.
 

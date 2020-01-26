@@ -10,7 +10,7 @@ MaterialApp é um [widget que agrupa vários outros widgets](https://api.flutter
 
 Aplicativos móveis normalmente revelam seu conteúdo por meio de elementos de tela cheia chamados "telas" ou "páginas".
 
-No Flutter, esses elementos são chamados de rotas e são gerenciados por um widget Navigator.
+No Flutter, esses elementos são chamados de rotas e são gerenciados por um widget `Navigator`.
 
 O navegador gerencia uma pilha de objetos Route e fornece métodos para gerenciar a pilha, como Navigator.push e Navigator.pop.
 

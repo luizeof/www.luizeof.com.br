@@ -14,7 +14,7 @@ A marcação de dados estruturados é renderizada no **Google**, **Bing** e outr
 
 Os _rich snippets_ são [resultados de pesquisa aprimorados](https://developers.google.com/search/docs/guides/intro-structured-data?hl=pt-br) que adicionam informações extras, como uma foto, o preço, as classificações do usuário e outras características aos `snippets` do mecanismo de pesquisa.
 
-![Como melhorar a pesquisa com o Rich Snippets e o Schema.org](images/Rich-Snippets-Serp.png)
+![Como melhorar a pesquisa com o Rich Snippets e o Schema.org](/assets/images/Rich-Snippets-Serp.webp)
 
 Os dados estruturados levam a melhores resultados de pesquisa por dois motivos principais:
 
@@ -23,7 +23,7 @@ Os dados estruturados levam a melhores resultados de pesquisa por dois motivos p
 
 Veja essa mesma pesquisa da imagem acima com cards de conteúdo:
 
-![Como melhorar a pesquisa com o Rich Snippets e o Schema.org](images/Rich-Snippets-Cards.png)
+![Como melhorar a pesquisa com o Rich Snippets e o Schema.org](/assets/images/Rich-Snippets-Cards.webp)
 
 ## Marcações do schema.org
 
@@ -56,7 +56,7 @@ Observe que tipos mais específicos (segundo e terceiro nível) herdam as propri
 
 A imagem abaixo foi publicada no blog oficial do esquema e visualiza o hierarquia do schema.org:
 
-![Marcações do schema.org](images/schema-org-hierarchy.jpg)
+![Marcações do schema.org](/assets/images/schema-org-hierarchy.webp)
 
 ## Encontre o schema que você precisa
 
@@ -84,7 +84,7 @@ Você não precisa ser um especialista em JavaScript para usar o JSON, pois é u
 
 Você pode comparar facilmente os três formatos com a ajuda de uma guia prática na parte inferior de cada página de tipo schema.org.
 
-![Adicionar dados estruturados à sua marcação](images/schema-tab.jpg)
+![Adicionar dados estruturados à sua marcação](/assets/images/schema-tab.webp)
 
 Examinando os exemplos, você pode entender facilmente como cada formato funciona e usar um deles em seu próprio site.
 
@@ -138,7 +138,7 @@ O Google não usa apenas dados estruturados para rich snippets, mas se você é 
 
 Observe que você não pode fazer o Google exibir um cartão de gráfico de conhecimento para o seu conteúdo, mas se a sua marcação de dados estruturada estiver configurada corretamente, você poderá.
 
-![Aproveite os gráficos do Google Knowledge Cards](images/facebook-knowledge-graph.jpg)
+![Aproveite os gráficos do Google Knowledge Cards](/assets/images/facebook-knowledge-graph.webp)
 
 ## Finalizando
 

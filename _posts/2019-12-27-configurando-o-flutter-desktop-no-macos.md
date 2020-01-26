@@ -10,7 +10,7 @@ Estão em andamento trabalhos para estender o Flutter para oferecer suporte à �
 
 Atualmente o Flutter 1.3 Alpha permite compilar o código-fonte do Flutter para um aplicativo nativo do macOS.
 
-O suporte ao desktop do Flutter também se estende aos [plugins](https://www.luizeof.com.br/tag/flutter-plugins/) - você pode instalar plug-ins existentes que suportam a plataforma macOS ou criar seus próprios plugins.
+O suporte ao desktop do Flutter também se estende aos [plugins](https://www.luizeof.com.br/) - você pode instalar plug-ins existentes que suportam a plataforma macOS ou criar seus próprios plugins.
 
 **IMPORTANTE:** As APIs da área de trabalho do Flutter ainda estão nos estágios iniciais de desenvolvimento e estão sujeitas a alterações sem aviso prévio. Nenhuma compatibilidade com versões anteriores, API ou ABI, será fornecida pela equipe de desenvolvimento durante o estágio Alpha.
 
@@ -63,7 +63,7 @@ O modo Desktop do Flutter inclui os comandos `create` e `build`, além do comand
 
 No Android Studio você poderá ver o _**MacOS**_ como Device:
 
-![No Android Studio você poderá ver o Flutter Desktop como target](images/flutter-desktop-android-studio.png)
+![No Android Studio você poderá ver o Flutter Desktop como target](/assets/images/flutter-desktop-android-studio.png)
 
 ## Adicionar desktop a um projeto existente
 

@@ -18,7 +18,7 @@ O [código-fonte](https://sqlite.org/src/doc/trunk/README.md) SQLite é de domí
 
 ## Sobre o plugin **_sqflite_** para Flutter
 
-Atualmente o plugin **_sqflite_** para [Flutter](https://www.luizeof.com.br/flutter/) suporta **iOS**, **Android** e **MacOS**.
+Atualmente o plugin **_sqflite_** para [Flutter](https://www.luizeof.com.br/) suporta **iOS**, **Android** e **MacOS**.
 
 - Transações e lotes de suporte
 - Gerenciamento automático de versão durante a abertura
@@ -262,7 +262,7 @@ class Todo {
   // Construtor padrão
   Todo();
 
-  // Construtor que mapeia o valor do banco de dados 
+  // Construtor que mapeia o valor do banco de dados
   // para o objeto [Todo]
   Todo.fromMap(Map<String, dynamic> map) {
     id = map[columnId];
@@ -287,8 +287,8 @@ class TodoProvider {
     db = await openDatabase(path, version: 1,
         onCreate: (Database db, int version) async {
           await db.execute('''
-            create table $tableTodo ( 
-             $columnId integer primary key autoincrement, 
+            create table $tableTodo (
+             $columnId integer primary key autoincrement,
              $columnTitle text not null,
              $columnDone integer not null)
           ''');
@@ -354,7 +354,7 @@ Ao fornecer uma instrução SQL RAW, você não deve tentar _sanitizar_ nenhum v
 ```dart
 // esse é o modo correto
 int recordId = await db.rawInsert(
-  'INSERT INTO todo(title, done) VALUES (?, ?)', 
+  'INSERT INTO todo(title, done) VALUES (?, ?)',
   ['Exemplo', 1],
 );
 // esse modo não é recomendado
@@ -423,7 +423,7 @@ mapRead['title'] = "Exemplo";
 Para resolver esse problema, você precisa criar um novo `Map` se quiser modificá-lo na memória:
 
 ```dart
-// Vamos criar outro map 
+// Vamos criar outro map
 Map<String, dynamic> map = Map<String, dynamic>.from(mapRead);
 // Agora pode atualizar os dados na memória
 map['title'] = "Exemplo";
@@ -511,7 +511,7 @@ results = await batch.commit();
 await database.transaction((txn) async {
 
   var batch = txn.batch();
-    
+
   // commit, mas a confirmação real ocorrerá quando a transação for confirmada
   // no entanto, os dados estão disponíveis nesta transação
   await batch.commit();

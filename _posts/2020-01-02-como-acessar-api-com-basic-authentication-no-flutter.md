@@ -7,7 +7,7 @@ image: "assets/images/category/flutter-full.png"
 
 No desenvolvimento com Flutter é fundamental acessar API que possuem algum tipo de autenticação e o método mais popular é o _Basic Authentication_, que consiste basicamente no envio do usuário e senha em um cabeçalho.
 
-No [Flutter](https://www.luizeof.com.br/flutter/) realizamos requisições HTTP através do pacote nativo do Dart `http/http.dart` ([https://pub.dev/packages/http)](https://pub.dev/packages/http).
+No [Flutter](https://www.luizeof.com.br/) realizamos requisições HTTP através do pacote nativo do Dart `http/http.dart` ([https://pub.dev/packages/http)](https://pub.dev/packages/http).
 
 Este pacote contém um conjunto de funções e classes de alto nível que facilitam o consumo de recursos HTTP. É independente da plataforma e pode ser usado na linha de comando e no navegador.
 
@@ -39,7 +39,7 @@ Na autenticação HTTP básica, uma solicitação contém um campo de cabeçalho
 
 O resultado do `Base64Encoder` é enviado com o cabeçalho `Authorization: Basic`:
 
-```
+```text
 Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l
 ```
 
@@ -54,9 +54,9 @@ main() async {
   String username = 'luiz';
   String password = '123';
   String basicAuth = 'Basic ' + base64Encode('$username:$password');
- 
+
   var response = await http.post(
-      'https://api.site.io/new', 
+      'https://api.site.io/new',
       headers: <String, String>{'authorization': basicAuth},
       body: {'name': 'doodle', 'color': 'blue'},
   );

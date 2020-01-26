@@ -8,7 +8,7 @@ image: "assets/images/category/flutter-full.png"
 
 In Flutter development it is critical to access APIs that have some kind of authentication and the most popular method is Basic Authentication, which basically consists of sending the user and password in a header.
 
-In [Flutter](https://www.luizeof.com.br/en/flutter/) we perform HTTP requests through the native Dart package `http/http.dart` ([https://pub.dev/packages/http](https://pub.dev/packages/http)).
+In [Flutter](https://www.luizeof.com.br/) we perform HTTP requests through the native Dart package `http/http.dart` ([https://pub.dev/packages/http](https://pub.dev/packages/http)).
 
 This package contains a set of high-level functions and classes that make it easy to consume HTTP resources. It is platform independent and can be used on the command line and in the browser.
 
@@ -20,7 +20,7 @@ import 'package:http/http.dart' as http;
 main() async {
 
   var response = await http.post(
-      'https://api.site.io/new', 
+      'https://api.site.io/new',
       body: {'name': 'doodle', 'color': 'blue'},
   );
 
@@ -38,7 +38,7 @@ In the context of an HTTP transaction, Basic Authentication is a method for an H
 
 `Base64Encoder` output is sent with the `Authorization: Basic` header:
 
-```
+```text
 Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l
 ```
 
@@ -53,9 +53,9 @@ main() async {
   String username = 'luiz';
   String password = '123';
   String basicAuth = 'Basic ' + base64Encode('$username:$password');
- 
+
   var response = await http.post(
-      'https://api.site.io/new', 
+      'https://api.site.io/new',
       headers: <String, String>{'authorization': basicAuth},
       body: {'name': 'doodle', 'color': 'blue'},
   );

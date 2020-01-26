@@ -8,7 +8,7 @@ image: "assets/images/category/wordpress-full.png"
 
 O AMP é um esforço comum que promete um melhor desempenho de carregamento de página para sites no ambiente móvel e pode ser customizado com _filters_ e _hooks_.
 
-Porém, como você pode encontrar no [artigo sobre o AMP](https://www.luizeof.com.br/br/wordpress/amp-para-wordpress/), você terá que sacrificar coisas sofisticadas do seu site e seguir rigorosamente as regras, cumprir as diretrizes e validar as páginas. Parece muito o que fazer, não é?
+Porém, como você pode encontrar no [artigo sobre o AMP](https://www.luizeof.com.br/amp-para-wordpress/), você terá que sacrificar coisas sofisticadas do seu site e seguir rigorosamente as regras, cumprir as diretrizes e validar as páginas. Parece muito o que fazer, não é?
 
 Felizmente, se você criou seu site com o WordPress, pode aplicar o AMP em um piscar de olhos usando um plug-in chamado AMP-WP.
 
@@ -52,7 +52,7 @@ Cada um desses modelos pode ser assumido fornecendo um arquivo com o mesmo nome 
 
 Quando esses arquivos estiverem no lugar, o plug-in os buscará em vez dos arquivos padrão e nos permitirá alterar completamente a saída desses modelos.
 
-```
+```text
 twentytwelve
 ├── 404.php
 ├── amp
@@ -68,7 +68,7 @@ Você pode reescrever os estilos inteiros através do arquivo `style.php` ou mod
 
 Como mencionado anteriormente, este plug-in é fornecido com várias ações e filtros. Não é possível abordar cada um neste artigo mas vou apresentar um resumo e os snippets necessários que eu já utilizei:
 
-O `amp_init();` ação é útil para plug-ins que dependem do [AMP](https://www.luizeof.com.br/br/wordpress/amp-para-wordpress/) para que seu plug-in funcione; é executado quando o plug-in já está iniciado.
+O `amp_init();` ação é útil para plug-ins que dependem do [AMP](https://www.luizeof.com.br/amp-para-wordpress/) para que seu plug-in funcione; é executado quando o plug-in já está iniciado.
 
 ```php
 <?php
@@ -128,11 +128,11 @@ Através desse filtro, você pode embaralhar a ordem padrão ou remover uma das 
 ```php
 <?php
 function theme_amp_meta( $meta ) {
- 
+
   foreach ( array_keys( $meta, 'meta-time', true ) as $key ) {
     unset( $meta[ $key ] );
   }
- 
+
   return $meta;
 };
 add_filter( 'amp_post_template_meta_parts', 'theme_amp_meta' );
