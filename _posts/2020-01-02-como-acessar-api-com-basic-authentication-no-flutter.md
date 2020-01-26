@@ -1,6 +1,7 @@
 ---
 title: "Como acessar API com Basic Authentication no Flutter"
 date: "2020-01-02"
+categories: [ flutter ]
 image: "assets/images/category/flutter-full.png"
 ---
 
