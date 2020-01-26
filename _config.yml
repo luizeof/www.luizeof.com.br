@@ -16,6 +16,8 @@ twitter:
   username: luizeof
   card: summary
 
+ampdir: amp
+
 facebook:
   app_id: 203262620105524
 
@@ -44,6 +46,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-minifier
+  - amp-jekyll
 
 # Archives
 jekyll-archives:

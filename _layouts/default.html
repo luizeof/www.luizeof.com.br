@@ -16,7 +16,9 @@
         <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154888688-1"></script>
         <script async crossorigin="anonymous" defer defer src="https://kit.fontawesome.com/74938d49e0.js"></script>
-
+        {% if page.path contains '_posts' %}
+            <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+        {% endif %}
         <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -145,7 +147,7 @@
 
                 </div>
                 <!-- /.site-content -->
-                                                                                                                                                                                                                                                                        <!-- Scripts
+                                                                                                                                                                                                                                                                                                        <!-- Scripts
 ================================================== -->
 
                 <script async crossorigin="anonymous" defer integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
