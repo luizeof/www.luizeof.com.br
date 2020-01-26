@@ -5,6 +5,16 @@
         <meta charset="UTF-8">
         {% seo %}
         <meta content="width=device-width, initial-scale=1" name="viewport">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154888688-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-154888688-1');
+        </script>
         <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
         <link href="//fonts.googleapis.com" rel="dns-prefetch"/>
         <link href="//s.w.org" rel="dns-prefetch"/>
@@ -14,23 +24,10 @@
         <link href="https://bootswatch.com/4/flatly/bootstrap.min.css" rel="stylesheet">
         <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
         <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154888688-1"></script>
         <script async crossorigin="anonymous" defer defer src="https://kit.fontawesome.com/74938d49e0.js"></script>
         {% if page.path contains '_posts' %}
             <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
         {% endif %}
-        <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-154888688-1');
-    </script>
-
     </head>
 
     {% capture layout %}
@@ -147,7 +144,7 @@
 
                 </div>
                 <!-- /.site-content -->
-                                                                                                                                                                                                                                                                                                        <!-- Scripts
+                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- Scripts
 ================================================== -->
 
                 <script async crossorigin="anonymous" defer integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
