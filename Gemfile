@@ -13,4 +13,5 @@ group :jekyll_plugins do
     gem 'rouge'
     gem 'jekyll-minifier'
     gem 'amp-jekyll'
+    gem 'jekyll-pwa-plugin'
 end

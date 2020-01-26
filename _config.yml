@@ -47,6 +47,20 @@ plugins:
   - jekyll-archives
   - jekyll-minifier
   - amp-jekyll
+  - jekyll-pwa-plugin
+
+pwa:
+  sw_src_filepath: service-worker.js
+  sw_dest_filename: service-worker.js
+  dest_js_directory: assets/js
+  precache_recent_posts_num: 5
+  precache_glob_directory: /
+  precache_glob_patterns:
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores:
+    - sw-register.js
+    - "fonts/**/*"
 
 # Archives
 jekyll-archives:
