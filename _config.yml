@@ -3,7 +3,7 @@ name: "luizeof"
 title: "luizeof"
 description: "Wordpress / PHP / Flutter"
 logo: "assets/images/logo.png"
-favicon: "assets/images/logo.png"
+favicon: "assets/images/log.png"
 google_analytics: "UA-154888688-1"
 disqus: "luizeof"
 include: ["_pages"]
