@@ -2,9 +2,6 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-
-    {% seo %}
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,700|Roboto+Mono:400,500" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -22,6 +19,57 @@
     <link href="//www.luizeof.com.br" rel="dns-prefetch"/>
     <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch"/>
     <link href="//bootswatch.com" rel="dns-prefetch"/>
+
+    <title>{{ seo_tag.title }}</title>
+
+    <meta content="Jekyll v{{ jekyll.version }}" name="generator"/>
+    <meta property="og:title" content="{{ seo_tag.page_title }}"/>
+    <meta name="author" content="{{ seo_tag.author.name }}"/>
+    <meta property="og:locale" content="{{ seo_tag.page_lang | replace:'-','_' }}"/>
+
+    <meta name="description" content="{{ seo_tag.description }}"/>
+    <meta property="og:description" content="{{ seo_tag.description }}"/>
+
+
+    <link rel="canonical" href="{{ seo_tag.canonical_url }}"/>
+    <meta property="og:url" content="{{ seo_tag.canonical_url }}"/>
+
+
+    <meta property="og:site_name" content="{{ seo_tag.site_title }}"/>
+
+
+    <meta property="og:image" content="{{ seo_tag.image.path }}"/>
+    {% if seo_tag.image.height %}
+        <meta property="og:image:height" content="{{ seo_tag.image.height }}"/>
+    {% endif %}
+    {% if seo_tag.image.width %}
+        <meta property="og:image:width" content="{{ seo_tag.image.width }}"/>
+    {% endif %}
+
+
+    <meta content="article" property="og:type"/>
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}"/>
+
+
+    {% if paginator.previous_page %}
+        <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}"/>
+    {% endif %}
+    {% if paginator.next_page %}
+        <link rel="next" href="{{ paginator.next_page_path | absolute_url }}"/>
+    {% endif %}
+
+    <meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "summary_large_image" }}"/>
+    <meta property="twitter:image" content="{{ seo_tag.image.path }}"/>
+    <meta content="summary" name="twitter:card"/>
+    <meta property="twitter:title" content="{{ seo_tag.page_title }}"/>
+    <meta content="@{{ site.twitter.username | remove:'@' }}" name="twitter:site"/>
+
+    {% if seo_tag.author.twitter %}
+        <meta content="@{{ seo_tag.author.twitter | remove:'@' }}" name="twitter:creator"/>
+    {% endif %}
+
+    <meta property="fb:app_id" content="{{ site.facebook.app_id }}"/>
+
     <script async crossorigin="anonymous" defer defer src="https://kit.fontawesome.com/74938d49e0.js"></script>
     {% if page.path contains '_posts' %}
         <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
