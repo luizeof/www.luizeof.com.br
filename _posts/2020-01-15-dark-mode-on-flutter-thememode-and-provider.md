@@ -186,7 +186,7 @@ Run the project on the device and test the application with the code that is in 
 
 ![How to do Dark Mode on Flutter with ThemeMode and Provider](/assets/images/flutter-light-mode.webp)
 
-![How to do Dark Mode on Flutter with ThemeMode and Provider](assets/images/flutter-dark-mode.webp)
+![How to do Dark Mode on Flutter with ThemeMode and Provider](/assets/images/flutter-dark-mode.webp)
 
 ## Conclusion
 
