@@ -1,6 +1,6 @@
 ---
 title: "Como fazer Dark Mode no Flutter com ThemeMode e Provider"
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "Neste artigo vou apresentar um método de implementar o Dark Mode dinâmico no Flutter usando o ThemeMode e o plugin provider."
 author: luizeof
 date: "2020-01-15"
 categories: [ flutter ]

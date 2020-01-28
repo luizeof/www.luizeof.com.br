@@ -8,6 +8,7 @@ layout: amp
     <title>{{ page.title }}</title>
     <meta name="description">{{ page.description }}</meta>
     <meta name="author" content="luizeof" />
+    {% include schema-article.html %}
     <meta property="og:locale" content="{{ page.lang }}" />
     <link rel="canonical" href="{{ page.canonical_url | prepend: site.baseurl | prepend: site.url }}" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
