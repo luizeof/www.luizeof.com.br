@@ -52,8 +52,8 @@ post_class: post-template
 
 
             <!-- End Featured Image -->
-            
-                        <!-- Post Content -->
+                                                
+                                                            <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
                 {% if page.toc %}
@@ -104,8 +104,8 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Categories -->
-            
-                        <!-- Post Tags -->
+                                                
+                                                            <!-- Post Tags -->
             <div class="after-post-tags">
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
@@ -117,8 +117,8 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Tags -->
-            
-                        <!-- Prev/Next -->
+                                                
+                                                            <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                 {% if page.previous.url %}
                     <a class="prev d-block col-md-6" href="{{ site.baseurl }}/{{page.previous.url}}">
@@ -139,54 +139,3 @@ post_class: post-template
 
     </div>
 </div>
-<!-- End Article
-================================================== -->
-
-<script type="application/ld+json">
-
-[36mLine: 1[0m
-[31m{[0m
-[31m    "@context": "https://schema.org",[0m
-[31m    "@type": "NewsArticle",[0m
-[31m    "mainEntityOfPage": {[0m
-[31m        "@type": "WebPage",[0m
-[31m        "@id": "https://google.com/article"[0m
-[31m    },[0m
-
-[36mLine: 27[0m
-[32m(empty line)[0m
-</script>
-<script type="application/ld+json">
-
-[36mLine: 1[0m
-[31m{[0m
-[31m    "@context": "https://schema.org",[0m
-[31m    "@type": "BreadcrumbList",[0m
-[31m    "itemListElement": [[0m
-[31m        {[0m
-[31m            "@type": "ListItem",[0m
-[31m            "position": 1,[0m
-
-[36mLine: 14[0m
-[32m(empty line)[0m
-</script>
-<script type="application/ld+json">
-    {
-            "@context": "http://schema.org/",
-            "@type": "Review",
-            "itemReviewed": {
-                "@type": "Thing",
-                "name": "{{ page.title }}"
-            },
-            "author": {
-                "@type": "Person",
-                "name": "{{ author.display_name }}"
-            },
-            "datePublished": "{{ page.date | date_to_xmlschema }}",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "{{ page.rating }}",
-                "bestRating": "5"
-            }
-        }
-</script>
