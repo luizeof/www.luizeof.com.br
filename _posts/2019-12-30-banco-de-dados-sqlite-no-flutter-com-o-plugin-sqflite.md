@@ -4,7 +4,7 @@ date: "2019-12-30"
 categories: [ flutter ]
 lang: "pt-BR"
 featured: true
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 O SQLite é [uma biblioteca em linguagem C](https://www.sqlite.org/) que implementa um mecanismo de banco de dados SQL pequeno, rápido, independente, de alta confiabilidade e completo que pode ser usado com o Flutter através da biblioteca **_sqflite_**.

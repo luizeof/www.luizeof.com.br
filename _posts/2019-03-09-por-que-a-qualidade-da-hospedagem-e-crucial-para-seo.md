@@ -3,7 +3,7 @@ title: "Por que a qualidade da hospedagem é crucial para SEO"
 date: "2019-03-09"
 categories: [ podcast ]
 lang: "pt-BR"
-image: "assets/images/category/podcast-full.png"
+image: "assets/images/category/podcast-full.webp"
 ---
 
 Quando se trata de otimização de mecanismos de busca (SEO) uma característica que na maioria das vezes é desconsiderada é a qualidade da hospedagem do seu website.

@@ -3,7 +3,7 @@ title: "Como usar os Hooks e Filters do AMP para Wordpress"
 date: "2020-01-02"
 categories: [ wordpress ]
 lang: "pt-BR"
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 ---
 
 O AMP é um esforço comum que promete um melhor desempenho de carregamento de página para sites no ambiente móvel e pode ser customizado com _filters_ e _hooks_.

@@ -4,7 +4,7 @@ date: "2020-01-10"
 categories: [ flutter ]
 tags: [flutter, ui]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 O Dart fornece um [método](https://api.dart.dev/stable/2.7.0/dart-core/String/replaceAllMapped.html) chamado _replaceAllMapped_ para substituir facilmente qualquer parte de uma substring em uma [String](https://www.luizeof.com.br/os-tipos-de-dados-do-dart-e-flutter/) usando expressões regulares que oferece mais opções que o método _replaceAll_.

@@ -6,3 +6,5 @@ _site/
 Gemfile.lock
 .firebase
 *.log
+_out/
+out/

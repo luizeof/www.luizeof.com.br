@@ -3,7 +3,7 @@ title: "Page Links To permite customizar URL no Wordpress"
 date: "2019-12-19"
 categories: [ wordpress ]
 lang: "pt-BR"
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 ---
 
 O plugin **Page Links To** permite criar um link de página ou post do WordPress para um URL externo de sua escolha, em vez do URL do próprio WordPress.

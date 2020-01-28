@@ -3,7 +3,7 @@ title: "Dart and Flutter data types"
 date: "2019-12-09"
 categories: [ flutter ]
 lang: "en"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 One of the most fundamental features of a programming language is the set of data types it supports. These are the types of data that can be represented and manipulated in a programming language.

@@ -3,7 +3,7 @@ title: "How to access API with Basic Authentication in Flutter"
 date: "2020-01-02"
 categories: [ flutter ]
 lang: "en"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 In Flutter development it is critical to access APIs that have some kind of authentication and the most popular method is Basic Authentication, which basically consists of sending the user and password in a header.

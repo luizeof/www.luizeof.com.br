@@ -4,7 +4,7 @@ date: "2019-12-07"
 categories: [ wordpress ]
 lang: "pt-BR"
 featured: true
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 ---
 
 Os dados estruturados com **Rich Snippets** e **schema.org** permitem apresentar os resultados da pesquisa de uma maneira mais visual e atraente.

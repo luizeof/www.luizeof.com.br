@@ -3,7 +3,7 @@ title: "FLUI is a set of widgets for Flutter"
 date: "2019-12-04"
 categories: [ flutter ]
 lang: "en"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 FLUI is an Open Source widget kit for [Flutter](https://www.luizeof.com.br/) that has many high quality UI widgets, providing more advanced features and functions to improve development efficiency.

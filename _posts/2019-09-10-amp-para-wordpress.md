@@ -3,7 +3,7 @@ title: "AMP para WordPress otimiza seus artigos para SERP Mobile"
 date: "2019-09-10"
 categories: [ wordpress ]
 lang: "pt-BR"
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 ---
 
 O plugin AMP para WordPress otimiza seus artigos para o Google AMP que melhora o posicionamento dos seus artigos nas pesquisas em dispositivos móveis.

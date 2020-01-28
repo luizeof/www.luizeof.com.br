@@ -3,7 +3,7 @@ title: "Como aplicar Sombra no Widget Text no Flutter"
 date: "2020-01-08"
 categories: [ flutter ]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 O `Widget Text` é uma parte essencial de qualquer aplicativo Flutter e o uso de sombra pode torná-lo muito elegante.

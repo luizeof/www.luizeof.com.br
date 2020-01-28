@@ -3,7 +3,7 @@ title: "Yoast SEO é mais do que essencial no WordPress"
 date: "2019-05-19"
 categories: [ wordpress ]
 lang: "pt-BR"
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 featured: true
 ---
 

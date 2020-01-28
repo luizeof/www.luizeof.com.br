@@ -10,8 +10,14 @@ find assets/images/ -type f -name '*.jpg' -exec sh -c 'cwebp -q 75 $1 -o "${1%.j
 
 find assets/images/ -type f -name '*.jpeg' -exec sh -c 'cwebp -q 75 $1 -o "${1%.jpeg}.webp"' _ {} \;
 
+rm -rf _site
+
+rm -rf _out
+
 jekyll clean
 
 jekyll build
 
-rm _site/assets/css/main.css.map
+cp -rf _site/ _out/
+
+minify -r -o _out/ _site

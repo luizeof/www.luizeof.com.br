@@ -21,19 +21,19 @@ post_class: post-template
             </div>
 
             {% if page.image %}
-                <img class="featured-image img-fluid" src="/{{ page.image }}" alt="{{ page.title }}">
+                <img class="featured-image img-fluid lazyload" data-src="/{{ page.image }}" alt="{{ page.title }}">
             {% else %}
 
                 {% if page.categories contains "flutter" %}
-                    <img class="featured-image img-fluid" src="/assets/images/category/flutter-full.webp" alt="{{ page.title }}">
+                    <img class="featured-image img-fluid lazyload" data-src="/assets/images/category/flutter-full.webp" alt="{{ page.title }}">
                 {% endif %}
 
                 {% if page.categories contains "wordpress" %}
-                    <img class="featured-image img-fluid" src="/assets/images/category/wordpress-full.webp" alt="{{ page.title }}">
+                    <img class="featured-image img-fluid lazyload" data-src="/assets/images/category/wordpress-full.webp" alt="{{ page.title }}">
                 {% endif %}
 
                 {% if page.categories contains "php" %}
-                    <img class="featured-image img-fluid" src="/assets/images/category/php-full.webp" alt="{{ page.title }}">
+                    <img class="featured-image img-fluid lazyload" data-src="/assets/images/category/php-full.webp" alt="{{ page.title }}">
                 {% endif %}
 
             {% endif %}

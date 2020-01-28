@@ -3,7 +3,7 @@ title: "Image Widget: Como adicionar uma imagem no Flutter"
 date: "2019-12-22"
 categories: [ flutter ]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 Adicionar uma imagem no Flutter é bem simples usando o Widget Image e copiando a imagem para o seu projeto.

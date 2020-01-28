@@ -3,7 +3,7 @@ title: "Widgets FLUI FLFlatButton, FLRaisedButton e FLGradientButton"
 date: "2019-12-08"
 categories: [ flutter ]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 Os Widgets e botões do FLUI **FLFlatButton** e **FLRaisedButton** incluem alguns widgets baseados no `FlatButton` & `RaisedButton` nativos do Flutter e também adicionaram `FLGradientButton`, que oferece suporte ao fundo gradiente e o `FLLoadingButton`, que suporta animação de carregamento.

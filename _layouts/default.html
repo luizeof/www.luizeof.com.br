@@ -15,17 +15,17 @@
             gtag('js', new Date());
             gtag('config', 'UA-154888688-1');
         </script>
-        <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+        <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.webp">
         <link href="/manifest.webmanifest" rel="manifest">
         <link href="//fonts.googleapis.com" rel="dns-prefetch"/>
         <link href="//s.w.org" rel="dns-prefetch"/>
         <link href="//www.luizeof.com.br" rel="dns-prefetch"/>
         <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch"/>
         <link href="//bootswatch.com" rel="dns-prefetch"/>
-        <link href="https://bootswatch.com/4/flatly/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
-        <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-        <script async crossorigin="anonymous" defer defer src="https://kit.fontawesome.com/74938d49e0.js"></script>
+        <script async="" src="/assets/js/lazysizes.min.js"></script>
+        <link media="screen" href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet">
+        <link media="screen" href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+        <link media="screen" href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
         {% if page.path contains '_posts' %}
             <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
         {% endif %}
@@ -145,7 +145,7 @@
 
                 </div>
                 <!-- /.site-content -->
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- Scripts
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- Scripts
 ================================================== -->
 
                 <script crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -170,6 +170,8 @@
 
                 <!-- Initialize Firebase -->
                 <script src="/__/firebase/init.js"></script>
+
+
             </body>
 
             </html>

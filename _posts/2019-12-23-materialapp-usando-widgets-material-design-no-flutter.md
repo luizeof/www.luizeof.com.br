@@ -3,7 +3,7 @@ title: "MaterialApp: Usando Widgets Material Design no Flutter"
 date: "2019-12-23"
 categories: [ flutter ]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 MaterialApp é um [widget que agrupa vários outros widgets](https://api.flutter.dev/flutter/material/MaterialApp-class.html) geralmente necessários para apps com funcionalidade específicas baseados em Material Design.

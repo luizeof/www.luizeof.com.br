@@ -3,7 +3,7 @@ title: "O que é o HTTP/3? Disponível no Cloudflare, Chrome e Firefox"
 date: "2019-11-20"
 categories: [ wordpress ]
 lang: "pt-BR"
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 ---
 
 HTTP/3 é a próxima grande mudança do protocolo HTTP que deixará seu site muito mais rápido e vai mudar muita coisa no desempenho da web nos próximos anos.

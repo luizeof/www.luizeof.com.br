@@ -3,7 +3,7 @@ title: "pubspec.yaml: Usando pacotes Dart com o Flutter"
 date: "2019-12-04"
 categories: [ flutter ]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 O SDK do [Flutter](https://www.luizeof.com.br/) suporta o uso de [pacotes compartilhados](https://flutter.dev/docs/development/packages-and-plugins/using-packages) contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart através da declaração no arquivo _pubspec.yaml_.

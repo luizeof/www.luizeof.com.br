@@ -3,7 +3,7 @@ title: "FLUI Toast: Widget de feedback para o Flutter"
 date: "2019-12-11"
 categories: [ flutter ]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 Toast é um [widget de feedback](https://www.flui.xin/en/widgets/toast.html) da suíte FLUI Uma classe `FLToastDefaults` suporta a configuração do estilo de exibição de Toast, posição, duração da exibição, modo escuro e outros comportamentos.

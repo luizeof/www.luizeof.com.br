@@ -134,4 +134,5 @@ adsense-data-ad-slot: "2833836650"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock,build, deploy, mini,
+docker-compose.yml, firebase.json, .firebaserc, optimize-png, setup,]

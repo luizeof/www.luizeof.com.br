@@ -3,7 +3,7 @@ title: "WooCommerce Subscriptions e Pagamentos recorrentes"
 date: "2019-10-02"
 categories: [ wordpress ]
 lang: "pt-BR"
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 ---
 
 Com o WooCommerce Subscriptions você pode criar e gerenciar produtos com pagamentos recorrentes — pagamentos que lhe darão receitas com as quais você pode acompanhar e contar.

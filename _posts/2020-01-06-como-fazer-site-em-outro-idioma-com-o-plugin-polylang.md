@@ -2,7 +2,7 @@
 title: "Como fazer site em outro idioma com o Plugin Polylang"
 date: "2020-01-06"
 categories: [ wordpress ]
-image: "assets/images/category/wordpress-full.png"
+image: "assets/images/category/wordpress-full.webp"
 lang: "pt-BR"
 ---
 

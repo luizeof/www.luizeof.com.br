@@ -3,7 +3,7 @@ title: "Expanded Widget preenche espaços no Flutter"
 date: "2019-12-18"
 categories: [ flutter ]
 lang: "pt-BR"
-image: "assets/images/category/flutter-full.png"
+image: "assets/images/category/flutter-full.webp"
 ---
 
 O Expanded Widget expande um `child` de uma `Row`, `Column` ou `Flex` para que o `child` [preencha o espaço disponível](https://api.flutter.dev/flutter/widgets/Expanded-class.html) na estrutura de layout do [Flutter](https://www.luizeof.com/).
